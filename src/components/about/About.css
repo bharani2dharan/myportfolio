@@ -112,6 +112,7 @@
     transform: rotate(10deg);
     transition: var(--transition);
     height: 450px;
+    width: 320px;
 }
 
   }
