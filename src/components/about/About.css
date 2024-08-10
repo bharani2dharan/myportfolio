@@ -85,17 +85,27 @@
     margin: 1rem 0 1.5rem;
 }
   }
-  
+  @media screen and (max-width:850px) {
+    .about__me-image {
+        border-radius: 2rem;
+        overflow: hidden;
+        transform: rotate(10deg);
+        transition: var(--transition);
+        height: 750px;
+        width: 620px;
+    }
+  }
 
   @media screen and (max-width:600px) {
 .about__me{
-    width: 65%;
+    width: 320px;
     margin: 0 auto 3rem;
 }
 
 .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    /* width: 400px !important; */
 }
 
 .about__content {
@@ -104,6 +114,8 @@
 
 .about__content p{
     margin: 1.5rem 0;
+    /* width: 400px;
+    text-align: justify; */
 }
 
 .about__me-image {
