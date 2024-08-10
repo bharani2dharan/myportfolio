@@ -106,4 +106,12 @@
     margin: 1.5rem 0;
 }
 
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+    height: 450px;
+}
+
   }
