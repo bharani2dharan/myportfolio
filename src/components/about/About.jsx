@@ -22,7 +22,7 @@ const about = () => {
              <article className='about__card'>
               <MdWorkOutline className='about__icon'/>
               <h5>Experience</h5>
-              <small>4+ Years Experience</small>
+              <small>4.5+ Years Experience</small>
             </article>
             <article className='about__card'>
               <FaAward className='about__icon'/>
